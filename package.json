@@ -1,0 +1,29 @@
+{
+  "name": "react-testing-lib-vs-enzyme",
+  "version": "1.0.0",
+  "description": "Exploration and comparison between react-testing-library and enzyme",
+  "main": "index.js",
+  "repository": "https://github.com/smoralesd/react-testing-lib-vs-enzyme.git",
+  "author": "Sebastian Morales <sebastian.moralesd@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@testing-library/react": "^10.0.2",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^25.2.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.4.0",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch:test": "jest --watch"
+  }
+}
